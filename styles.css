@@ -59,7 +59,29 @@ a:visited:hover {
   color: rgb(28, 1, 63);
 }
 
-
 h3 {
   color: rgb(28, 1, 63);
+}
+
+table {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(odd) {
+  background-color: rgba(247, 141, 181, 0.863);
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(159, 158, 207);
+}
+
+.centralizar {
+  text-align: center;
+  color: rgb(210, 226, 255);
+}
+
+footer {
+  background-color: rgb(89, 87, 182);
+  padding: 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
 }
