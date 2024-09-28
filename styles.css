@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(144, 178, 201);
+  color: rgb(0, 10, 17);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(89, 87, 182);
+  padding: 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+nav > ul > li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(210, 226, 255);
+}
+
+h2 {
+  color: rgb(255, 21, 111);
+}
+
+h3 {
+  color: rgb(28, 1, 63);
+}
