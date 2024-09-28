@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(144, 178, 201);
+  color: rgb(0, 10, 17);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(89, 87, 182);
+  padding: 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+nav > ul > li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(210, 226, 255);
+}
+
+h2 {
+  color: rgb(255, 21, 111);
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+body ::selection {
+  background-color: rgb(160, 207, 238);
+  color: rgb(64, 126, 168);
+}
+
+a {
+  color: rgb(255, 21, 111);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(28, 1, 63);
+}
+
+a:visited {
+  color: rgb(255, 21, 111);
+}
+
+a:visited:hover {
+  color: rgb(28, 1, 63);
+}
+
+h3 {
+  color: rgb(28, 1, 63);
+}
+
+table {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(odd) {
+  background-color: rgba(247, 141, 181, 0.863);
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(159, 158, 207);
+}
+
+.centralizar {
+  text-align: center;
+  color: rgb(210, 226, 255);
+}
+
+footer {
+  background-color: rgb(89, 87, 182);
+  padding: 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
